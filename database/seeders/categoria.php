@@ -27,44 +27,25 @@ class categoria extends Seeder
             ],
             [
                 "Codigo" => "KL3740",
-                "Nombre" => "Pfannerstill-Rau",
+                "Nombre" => "HERRAMIENTAS",
                 "Estado" => false
             ],
             [
                 "Codigo" => "QR4953",
-                "Nombre" => "Beer Inc",
+                "Nombre" => "CEMENTOS",
                 "Estado" => true
             ],
             [
                 "Codigo" => "WN7861",
-                "Nombre" => "Bernhard LLC",
+                "Nombre" => "MATERIALES",
                 "Estado" => true
             ],
             [
                 "Codigo" => "SQ9982",
-                "Nombre" => "Maggio-Walsh",
+                "Nombre" => "FIERROS",
                 "Estado" => true
             ],
-            [
-                "Codigo" => "AV5598",
-                "Nombre" => "Quitzon, Walsh and Ankunding",
-                "Estado" => true
-            ],
-            [
-                "Codigo" => "SA1768",
-                "Nombre" => "Olson and Sons",
-                "Estado" => true
-            ],
-            [
-                "Codigo" => "CX2556",
-                "Nombre" => "Spencer-Zulauf",
-                "Estado" => false
-            ],
-            [
-                "Codigo" => "AZ6701",
-                "Nombre" => "Rohan-Mraz",
-                "Estado" => true
-            ]
+           
 
         ]);
     }

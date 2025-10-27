@@ -25,9 +25,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/perfil', [PerfilController::class, 'index']);
-Route::get('/usuario', [UsuarioController::class, 'index']);
-Route::get('/almacen', [AlmacenController::class, 'index']);
-Route::get('/marca', [MarcaController::class, 'index']);
-Route::get('/modelo', [ModeloController::class, 'index']);
+Route::resource('/perfil', PerfilController::class);
+Route::resource('/usuario', UsuarioController::class);
+Route::resource('/almacen', AlmacenController::class);
+Route::resource('/marca', MarcaController::class);
+Route::resource('/modelo', ModeloController::class);
 Route::resource('/producto', ProductoController::class);

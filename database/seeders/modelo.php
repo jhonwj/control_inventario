@@ -23,50 +23,25 @@ class modelo extends Seeder
             ],
             [
                 "Codigo" => "WN9691",
-                "Nombre" => "Mosciski, Schiller and Abbott",
+                "Nombre" => "fht",
                 "Estado" => false
             ],
             [
                 "Codigo" => "IB2927",
-                "Nombre" => "Lehner LLC",
+                "Nombre" => "Lehner",
                 "Estado" => true
             ],
             [
                 "Codigo" => "SK7157",
-                "Nombre" => "Bins-Spencer",
+                "Nombre" => "f00588",
                 "Estado" => true
             ],
             [
                 "Codigo" => "IB5239",
-                "Nombre" => "Grimes-Hagenes",
+                "Nombre" => "gty",
                 "Estado" => true
             ],
-            [
-                "Codigo" => "IB9152",
-                "Nombre" => "Grady Group",
-                "Estado" => true
-            ],
-            [
-                "Codigo" => "AC1726",
-                "Nombre" => "Skiles, Hermiston and Abshire",
-                "Estado" => true
-            ],
-            [
-                "Codigo" => "AA1583",
-                "Nombre" => "Vandervort-Hodkiewicz",
-                "Estado" => false
-            ],
-            [
-                "Codigo" => "EK8611",
-                "Nombre" => "Schimmel-Langworth",
-                "Estado" => false
-            ],
-            [
-                "Codigo" => "CX1682",
-                "Nombre" => "Cronin-Hermann",
-                "Estado" => false
-            ]
-
+            
         ]);
     }
 }

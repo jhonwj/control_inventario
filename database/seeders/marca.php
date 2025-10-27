@@ -18,54 +18,20 @@ class marca extends Seeder
 
             [
                 "Codigo" => "DL6641",
-                "Nombre" => "Marks Inc",
+                "Nombre" => "ANDINO",
                 "Estado" => false
             ],
             [
                 "Codigo" => "AA9987",
-                "Nombre" => "Conn LLC",
+                "Nombre" => "ZICA",
                 "Estado" => true
             ],
             [
                 "Codigo" => "WN4006",
-                "Nombre" => "Olson Inc",
+                "Nombre" => "ACEROS AREQUIPA",
                 "Estado" => true
             ],
-            [
-                "Codigo" => "AV8569",
-                "Nombre" => "Swaniawski, Rosenbaum and Rodriguez",
-                "Estado" => false
-            ],
-            [
-                "Codigo" => "ET3932",
-                "Nombre" => "Johnston, Ebert and McGlynn",
-                "Estado" => true
-            ],
-            [
-                "Codigo" => "LA9967",
-                "Nombre" => "Kulas, Walter and Kovacek",
-                "Estado" => true
-            ],
-            [
-                "Codigo" => "DL9163",
-                "Nombre" => "Huels, Russel and Jones",
-                "Estado" => true
-            ],
-            [
-                "Codigo" => "NZ5754",
-                "Nombre" => "Zemlak Inc",
-                "Estado" => false
-            ],
-            [
-                "Codigo" => "AA2833",
-                "Nombre" => "Emmerich-Larkin",
-                "Estado" => true
-            ],
-            [
-                "Codigo" => "SQ2917",
-                "Nombre" => "Thompson, Nicolas and Bahringer",
-                "Estado" => true
-            ]
+
 
         ]);
     }

@@ -14,45 +14,36 @@ class user extends Seeder
     {
         DB::table('users')->insert([
             [
-                "email" => "ophetel@gmail.com",
+                "email" => "jhonmedrano@gmail.com",
                 "Dni" => '44617352',
-                "name" => "Streak",
-                "ApellidoP" => "Zurita",
-                "ApellidoM" => "Ramirez",
-                "Telefono" => "3975625825",
-                'password' => '651656516',
+                "name" => "jhon",
+                "ApellidoP" => "Medrano",
+                "ApellidoM" => "Martinez",
+                "Telefono" => "99999999",
+                'password' => 'jhon2025',
                 "Estado" => true
             ],
             [
-                "email" => "jstreak0@mysql.com",
+                "email" => "alejandro@gmail.com",
                 "Dni" => '14191812',
-                "name" => "Streak",
-                "ApellidoP" => "Female",
+                "name" => "alejandro",
+                "ApellidoP" => "mares",
                 "ApellidoM" => "Belgica",
                 "Telefono" => "Alemania",
                 'password' => '651656516',
                 "Estado" => true
             ],
             [
-                "email" => "cmerwede1@joomla.org",
+                "email" => "ricardo@gmail.com",
                 "Dni" => '76072053',
-                "name" => "Merwede",
+                "name" => "Ricardo",
                 "ApellidoP" => "Rosau",
                 "ApellidoM" => "Smith",
                 "Telefono" => "1785451449",
                 'password' => 'wqdwdqd',
                 "Estado" => false
             ],
-            [
-                "email" => "ccallendar2@cdc.gov",
-                "Dni" => '16227889',
-                "name" => "Callendar",
-                "ApellidoP" => "Genderfluid",
-                "ApellidoM" => "Sdnvow",
-                "Telefono" => "4691403604",
-                'password' => 'dwqdwqdqwdw',
-                "Estado" => false
-            ]
+           
         ]);
     }
 }
