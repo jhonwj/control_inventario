@@ -14,4 +14,10 @@ class ProductoController extends Controller
         return $Producto;
         // $perfil = DB::
     }
+
+    public function store(Request $request)
+    {
+        $Producto = Producto::create($request->all());
+        return $Producto;
+    }
 }
