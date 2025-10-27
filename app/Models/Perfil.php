@@ -11,4 +11,10 @@ class Perfil extends Model
     protected $casts = [
         'Estado' => 'boolean',
     ];
+    protected $fillable = [
+        "Codigo",
+        "Name",
+        "Descripcion",
+        "Estado",
+    ];
 }

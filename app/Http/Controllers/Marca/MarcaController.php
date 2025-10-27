@@ -14,4 +14,9 @@ class MarcaController extends Controller
         return $Marca;
         // $perfil = DB::
     }
+    public function store(Request $request)
+    {
+        $Marca = Marca::create($request->all());
+        return $Marca;
+    }
 }

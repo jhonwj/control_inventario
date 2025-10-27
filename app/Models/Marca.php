@@ -11,4 +11,9 @@ class Marca extends Model
     protected $casts = [
         'Estado' => 'boolean',
     ];
+    protected $fillable = [
+        'Codigo',
+        'Nombre',
+        'Estado',
+    ];
 }

@@ -11,4 +11,17 @@ class Almacen extends Model
     protected $casts = [
         'Estado' => 'boolean',
     ];
+    protected $fillable = [
+        'Codigo',
+        'Nombre',
+        'Direccion',
+        'CapacidadTotal',
+        'CapacidadUtilizada',
+        'TipoAlmacen',
+        'Responsable',
+        'TelefonoContacto',
+        'TelefonoContacto2',
+        'CorreoContacto',
+        'Estado',
+    ];
 }

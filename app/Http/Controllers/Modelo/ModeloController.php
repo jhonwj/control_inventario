@@ -14,4 +14,9 @@ class ModeloController extends Controller
         return $Modelo;
         // $perfil = DB::
     }
+    public function store(Request $request)
+    {
+        $Modelo = Modelo::create($request->all());
+        return $Modelo;
+    }
 }

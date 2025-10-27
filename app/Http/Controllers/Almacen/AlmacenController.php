@@ -14,4 +14,9 @@ class AlmacenController extends Controller
         return $Almacen;
         // $perfil = DB::
     }
+    public function store(Request $request)
+    {
+        $Almacen = Almacen::create($request->all());
+        return $Almacen;
+    }
 }

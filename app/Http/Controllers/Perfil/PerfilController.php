@@ -15,4 +15,9 @@ class PerfilController extends Controller
         return $perfil;
         // $perfil = DB::
     }
+     public function store(Request $request)
+    {
+        $Perfil = Perfil::create($request->all());
+        return $Perfil;
+    }
 }

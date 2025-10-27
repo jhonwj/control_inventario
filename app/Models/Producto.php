@@ -11,4 +11,14 @@ class Producto extends Model
     protected $casts = [
         'Estado' => 'boolean',
     ];
+    protected $fillable = [
+        'IdMarca',
+        'IdCategoria',
+        'IdModelo',
+        'Codigo',
+        'Nombre',
+        'PrecioC',
+        'PrecioV',
+        'Estado',
+    ];
 }
