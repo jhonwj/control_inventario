@@ -15,9 +15,22 @@ class PerfilController extends Controller
         return $perfil;
         // $perfil = DB::
     }
-     public function store(Request $request)
+    public function store(Request $request)
     {
         $Perfil = Perfil::create($request->all());
         return $Perfil;
+    }
+    public function update(Request $request, $id)
+    {
+        $Perfil = Perfil::find(($id));
+        $Perfil->update($request->all());
+        return $Perfil;
+    }
+
+    public function destroy(Request $request, $id)
+    {
+        $Perfil = Perfil::find(($id));
+        $Perfil->delete();
+        return 'ok';
     }
 }

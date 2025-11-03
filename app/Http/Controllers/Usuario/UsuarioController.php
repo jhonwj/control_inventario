@@ -19,4 +19,17 @@ class UsuarioController extends Controller
         $User = User::create($request->all());
         return $User;
     }
+    public function update(Request $request, $id)
+    {
+        $User = User::find(($id));
+        $User->update($request->all());
+        return $User;
+    }
+
+    public function destroy(Request $request, $id)
+    {
+        $User = User::find(($id));
+        $User->delete();
+        return 'ok';
+    }
 }

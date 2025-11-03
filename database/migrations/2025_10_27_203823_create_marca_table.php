@@ -18,6 +18,7 @@ class CreateMarcaTable extends Migration
             $table->string('Codigo');
             $table->string('Nombre');
             $table->boolean('Estado');
+            $table->softDeletes('deleted_at');
             $table->timestamps();
         });
     }

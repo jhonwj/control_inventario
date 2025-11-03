@@ -19,6 +19,7 @@ class CreatePerfilUsuarioTable extends Migration
             $table->string('Name');
             $table->string('Descripcion');
             $table->boolean('Estado')->default(true);
+            $table->softDeletes('deleted_at');
             $table->timestamps();
         });
     }

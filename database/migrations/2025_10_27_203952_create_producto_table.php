@@ -23,6 +23,7 @@ class CreateProductoTable extends Migration
             $table->float('PrecioC');
             $table->float('PrecioV');
             $table->boolean('Estado');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

@@ -19,4 +19,17 @@ class ModeloController extends Controller
         $Modelo = Modelo::create($request->all());
         return $Modelo;
     }
+    public function update(Request $request, $id)
+    {
+        $Modelo = Modelo::find(($id));
+        $Modelo->update($request->all());
+        return $Modelo;
+    }
+
+    public function destroy(Request $request, $id)
+    {
+        $Modelo = Modelo::find(($id));
+        $Modelo->delete();
+        return 'ok';
+    }
 }

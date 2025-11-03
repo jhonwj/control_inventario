@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\{Model, SoftDeletes};
 
 class Producto extends Model
 {
-
+    use SoftDeletes;
     protected $table = 'producto';
     protected $casts = [
         'Estado' => 'boolean',

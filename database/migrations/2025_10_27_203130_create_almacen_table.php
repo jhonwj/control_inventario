@@ -26,6 +26,7 @@ class CreateAlmacenTable extends Migration
             $table->string('TelefonoContacto2');
             $table->string('CorreoContacto');
             $table->boolean('Estado');
+            $table->softDeletes('deleted_at');
             $table->timestamps();
         });
     }

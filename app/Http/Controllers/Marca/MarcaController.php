@@ -19,4 +19,18 @@ class MarcaController extends Controller
         $Marca = Marca::create($request->all());
         return $Marca;
     }
+
+    public function update(Request $request, $id)
+    {
+        $Marca = Marca::find(($id));
+        $Marca->update($request->all());
+        return $Marca;
+    }
+
+    public function destroy(Request $request, $id)
+    {
+        $Marca = Marca::find(($id));
+        $Marca->delete();
+        return 'ok';
+    }
 }
